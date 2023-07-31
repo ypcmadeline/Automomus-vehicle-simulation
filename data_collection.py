@@ -88,7 +88,6 @@ class CarEnv:
         self.vehicle.set_autopilot(True) # 20km/h
 
 
-
     def drive(self, duration):
         CARLA.set_vehicles()
         time.sleep(duration)
